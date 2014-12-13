@@ -3,7 +3,7 @@ require 'bundler/setup'
 
 PACKAGE_NAME = "hello"
 VERSION = "1.0.0"
-TRAVELING_RUBY_VERSION = "20141209-2.1.5"
+TRAVELING_RUBY_VERSION = "20141213-2.1.5"
 SQLITE3_VERSION = "1.3.9"  # Must match Gemfile
 
 desc "Package your app"
