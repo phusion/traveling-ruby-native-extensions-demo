@@ -2,4 +2,5 @@
 .bundle
 hello-1.0.0-*
 *.tar.gz
+*.sqlite3
 vendor
