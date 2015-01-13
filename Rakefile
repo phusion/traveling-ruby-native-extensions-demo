@@ -50,8 +50,8 @@ namespace :package do
     sh "rm -rf packaging/tmp"
     sh "rm -f packaging/vendor/*/*/cache/*"
     sh "rm -rf packaging/vendor/ruby/*/extensions"
-    sh "find packaging/vendor/ruby/*/gems -name '*.so' | xargs rm"
-    sh "find packaging/vendor/ruby/*/gems -name '*.bundle' | xargs rm"
+    sh "find packaging/vendor/ruby/*/gems -name '*.so' | xargs rm -f"
+    sh "find packaging/vendor/ruby/*/gems -name '*.bundle' | xargs rm -f"
   end
 end
 
