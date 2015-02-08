@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'paint'
+gem 'faker'
 gem 'sqlite3', '1.3.9'
 
 group :development do
